@@ -1,0 +1,394 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose frame=''>0 0 10 0 -0 0</pose>
+      <diffuse>0.9 0.9 0.9 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <surface>
+            <contact>
+              <collide_bitmask>65535</collide_bitmask>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100</mu>
+                <mu2>50</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
+    <gravity>0 0 -9.8</gravity>
+    <atmosphere type='adiabatic'/>
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.0005</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>2000</real_time_update_rate>
+      <ode>
+        <solver>
+          <iters>25</iters>
+          <sor>1.0</sor>
+        </solver>
+        <constraints>
+          <!-- <cfm>0</cfm>
+          <erp>0.5</erp> -->
+          <contact_max_correcting_vel>100</contact_max_correcting_vel>
+          <contact_surface_layer>0.001</contact_surface_layer>
+        </constraints>
+      </ode>
+    </physics>
+    <scene>
+      <ambient>0.95 0.95 0.95 1</ambient>
+      <background>0.95 0.95 0.95 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <audio>
+      <device>default</device>
+    </audio>
+    <wind/>
+    <spherical_coordinates>
+      <surface_model>EARTH_WGS84</surface_model>
+      <latitude_deg>0</latitude_deg>
+      <longitude_deg>0</longitude_deg>
+      <elevation>0</elevation>
+      <heading_deg>0</heading_deg>
+    </spherical_coordinates>
+    <state world_name='default'>
+      <sim_time>94 9000000</sim_time>
+      <real_time>94 434031946</real_time>
+      <wall_time>1588244104 700301713</wall_time>
+      <iterations>94009</iterations>
+      <model name='ground_plane'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose frame=''>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose frame=''>5 -5 2 0 0.275643 2.35619</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+
+    <!-- <model name='scene'>
+      <include>
+        <uri>model://vans_copter/simulationComponents/scene</uri>
+        <pose>0 0 0.5 0 0 0</pose>
+      </include>
+    </model> -->
+
+    <model name='scene2'>
+      <include>
+        <uri>model://vans_copter/simulationComponents/Gazeboscene2</uri>
+        <pose>0 0 0.1 0 0 0</pose>
+      </include>
+    </model>
+    
+    <model name='ROTORS_1st'>
+      <include>
+        <uri>model://vans_copter/simulationComponents/copterRemix</uri>
+        <pose>-2.5 0 0.9 0 0 0</pose>
+      </include>
+
+      <plugin name="KeycmdProcess" filename="libKeycmdProcess.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <Pgain>         0.35                </Pgain>
+        <Dgain>         2.5                 </Dgain>
+        <Vgain>         1.2                 </Vgain>
+        <avoidDist>     9               </avoidDist>
+        <link>          body                 </link>
+      </plugin>
+
+      <plugin name="XYZ" filename="libXYZ_test.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <link>          body                 </link>
+        <id>     1        </id>
+        <VBL>    50      </VBL>
+        <Vsigma> 22.5 </Vsigma>
+        <ABL>    200     </ABL>
+        <Asigma> 77.6 </Asigma>
+      </plugin>
+
+      <plugin name="RPY" filename="libRPY_test.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <link>          body                 </link>
+        <id>     1        </id>
+        <VBL>    50      </VBL>
+        <Vsigma> 22.5 </Vsigma>
+        <ABL>    200     </ABL>
+        <Asigma> 77.6 </Asigma>
+      </plugin>
+
+      <plugin name="RPY_Cam" filename="libRPY_Cam.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <link>          cam_fixed            </link>
+        <id>     1        </id>
+        <VBL>    50      </VBL>
+        <Vsigma> 22.5 </Vsigma>
+        <ABL>    200     </ABL>
+        <Asigma> 77.6 </Asigma>
+      </plugin>
+
+      <plugin name="motor_plgn" filename="libmotor_plgn.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <bodylink>          body         </bodylink>
+        <motorlink0>motor_FL</motorlink0>
+        <motorlink1>motor_RL</motorlink1>
+        <motorlink2>motor_RR</motorlink2>
+        <motorlink3>motor_FR</motorlink3>
+
+        <cl>          1.883      </cl>
+        <cd>          1.0        </cd>
+        <area>        0.005    </area>
+        <rand>        10       </rand>
+        <dist2cp>     0.078 </dist2cp>
+        <blade_count> 3 </blade_count>
+      </plugin>
+
+      <plugin name="Com" filename="libCom2.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <link>          body                 </link>
+        <HBL>       50          </HBL>
+        <H_Pgain>   3       </H_Pgain>
+        <H_Igain>   0.05    </H_Igain>
+        <H_Dgain>   0.003   </H_Dgain>
+        <H_Ilimit>  0.25   </H_Ilimit>
+        <dH_Pgain>  1.0    </dH_Pgain>
+        <dH_Igain>  3.0    </dH_Igain>
+        <dH_Dgain>  0.01   </dH_Dgain>
+        <dH_Ilimit> 0.3   </dH_Ilimit>
+        <H_Mgain>   250.0   </H_Mgain>
+        
+        <HorizBL>       25           </HorizBL>
+        <Horiz_Pgain>   1.45     </Horiz_Pgain>
+        <Horiz_Igain>   0.01     </Horiz_Igain>
+        <Horiz_Dgain>   0.1      </Horiz_Dgain>
+        <Horiz_Ilimit>  0.7     </Horiz_Ilimit>
+        <dHoriz_Pgain>  0.35    </dHoriz_Pgain>
+        <dHoriz_Igain>  0.002   </dHoriz_Igain>
+        <dHoriz_Dgain>  0.0005  </dHoriz_Dgain>
+        <dHoriz_Ilimit> 0.3    </dHoriz_Ilimit>
+
+        <TBL>       25          </TBL>
+        <T_Pgain>   7.5     </T_Pgain>
+        <T_Igain>   0.1     </T_Igain>
+        <T_Dgain>   0.005   </T_Dgain>
+        <T_Ilimit>  0.02   </T_Ilimit>
+        <dT_Pgain>  1.5    </dT_Pgain>
+        <dT_Igain>  0.05   </dT_Igain>
+        <dT_Dgain>  0.005  </dT_Dgain>
+        <dT_Ilimit> 0.25  </dT_Ilimit>
+        <T_Mgain>   75.0    </T_Mgain>
+
+        <YawBL>       25         </YawBL>
+        <Yaw_Pgain>   2.0    </Yaw_Pgain>
+        <Yaw_Igain>   0.005  </Yaw_Igain>
+        <Yaw_Dgain>   0.003  </Yaw_Dgain>
+        <Yaw_Ilimit>  1.5   </Yaw_Ilimit>
+        <dYaw_Pgain>  1.2   </dYaw_Pgain>
+        <dYaw_Igain>  0.02  </dYaw_Igain>
+        <dYaw_Dgain>  0.01  </dYaw_Dgain>
+        <dYaw_Ilimit> 0.25 </dYaw_Ilimit>
+        <Yaw_Mgain>   75.0   </Yaw_Mgain>
+
+        <minRPM>             100             </minRPM>
+        <maxRPM>             3900            </maxRPM>
+        <VerticalVelLimit>   5.0   </VerticalVelLimit>
+        <HorizontalVelLimit> 6.0 </HorizontalVelLimit>
+        <RollLimit>          16.0         </RollLimit>
+      </plugin>
+
+      <plugin name="camStablizer" filename="libcamStablizer.so">
+        <modelTypeName> copterRemix </modelTypeName>
+        <link_roll>     cam_roll        </link_roll>
+        <link_pitch>    cam_pitch      </link_pitch>
+        <link_yaw>      cam_yaw          </link_yaw>
+        <TBL>           50                    </TBL>
+        <dT_Pgain>      6              </dT_Pgain>
+        <dT_Igain>      0.05              </dT_Igain>
+        <dT_Dgain>      2                </dT_Dgain>
+        <dT_Ilimit>     0.07            </dT_Ilimit>
+        <camTurnVel>    0.9           </camTurnVel>
+      </plugin>
+    </model>
+
+    <model name='ROTORS_2st'>
+      <include>
+        <uri>model://vans_copter/simulationComponents/copterRemix2detect</uri>
+        <pose>5 0 0.9 0 0 0</pose>
+      </include>
+
+      <plugin name="KeycmdProcess" filename="libKeycmdProcess.so">
+        <modelTypeName> copterRemix2detect </modelTypeName>
+        <link>          body                 </link>
+      </plugin>
+
+      <plugin name="XYZ" filename="libXYZ_test.so">
+        <modelTypeName> copterRemix2detect </modelTypeName>
+        <link>          body                 </link>
+        <id>     1        </id>
+        <VBL>    50      </VBL>
+        <Vsigma> 22.5 </Vsigma>
+        <ABL>    200     </ABL>
+        <Asigma> 77.6 </Asigma>
+      </plugin>
+
+      <plugin name="RPY" filename="libRPY_test.so">
+        <modelTypeName> copterRemix2detect </modelTypeName>
+        <link>          body                 </link>
+        <id>     1        </id>
+        <VBL>    50      </VBL>
+        <Vsigma> 22.5 </Vsigma>
+        <ABL>    200     </ABL>
+        <Asigma> 77.6 </Asigma>
+      </plugin>
+
+      <plugin name="RPY_Cam" filename="libRPY_Cam.so">
+        <modelTypeName> copterRemix2detect </modelTypeName>
+        <link>          cam_fixed            </link>
+        <id>     1        </id>
+        <VBL>    50      </VBL>
+        <Vsigma> 22.5 </Vsigma>
+        <ABL>    200     </ABL>
+        <Asigma> 77.6 </Asigma>
+      </plugin>
+
+      <plugin name="motor_plgn" filename="libmotor_plgn.so">
+        <modelTypeName> copterRemix2detect </modelTypeName>
+        <bodylink>          body         </bodylink>
+        <motorlink0>motor_FL</motorlink0>
+        <motorlink1>motor_RL</motorlink1>
+        <motorlink2>motor_RR</motorlink2>
+        <motorlink3>motor_FR</motorlink3>
+
+        <cl>          1.883      </cl>
+        <cd>          1.0        </cd>
+        <area>        0.005    </area>
+        <rand>        20       </rand>
+        <dist2cp>     0.078 </dist2cp>
+        <blade_count> 3 </blade_count>
+      </plugin>
+
+      <plugin name="Com" filename="libCom2.so">
+        <modelTypeName> copterRemix2detect </modelTypeName>
+        <link>          body                 </link>
+        <HBL>       50          </HBL>
+        <H_Pgain>   2.5     </H_Pgain>
+        <H_Igain>   0.05    </H_Igain>
+        <H_Dgain>   0.003   </H_Dgain>
+        <H_Ilimit>  0.25   </H_Ilimit>
+        <dH_Pgain>  1.0    </dH_Pgain>
+        <dH_Igain>  3.0    </dH_Igain>
+        <dH_Dgain>  0.01   </dH_Dgain>
+        <dH_Ilimit> 0.3   </dH_Ilimit>
+        <H_Mgain>   250.0   </H_Mgain>
+        
+        <HorizBL>       25           </HorizBL>
+        <Horiz_Pgain>   1.45     </Horiz_Pgain>
+        <Horiz_Igain>   0.01     </Horiz_Igain>
+        <Horiz_Dgain>   0.1      </Horiz_Dgain>
+        <Horiz_Ilimit>  0.7     </Horiz_Ilimit>
+        <dHoriz_Pgain>  0.35    </dHoriz_Pgain>
+        <dHoriz_Igain>  0.002   </dHoriz_Igain>
+        <dHoriz_Dgain>  0.0005  </dHoriz_Dgain>
+        <dHoriz_Ilimit> 0.3    </dHoriz_Ilimit>
+
+        <TBL>       25          </TBL>
+        <T_Pgain>   7.5     </T_Pgain>
+        <T_Igain>   0.1     </T_Igain>
+        <T_Dgain>   0.005   </T_Dgain>
+        <T_Ilimit>  0.02   </T_Ilimit>
+        <dT_Pgain>  1.5    </dT_Pgain>
+        <dT_Igain>  0.05   </dT_Igain>
+        <dT_Dgain>  0.005  </dT_Dgain>
+        <dT_Ilimit> 0.25  </dT_Ilimit>
+        <T_Mgain>   75.0    </T_Mgain>
+
+        <YawBL>       25         </YawBL>
+        <Yaw_Pgain>   2.0    </Yaw_Pgain>
+        <Yaw_Igain>   0.005  </Yaw_Igain>
+        <Yaw_Dgain>   0.003  </Yaw_Dgain>
+        <Yaw_Ilimit>  1.5   </Yaw_Ilimit>
+        <dYaw_Pgain>  1.2   </dYaw_Pgain>
+        <dYaw_Igain>  0.02  </dYaw_Igain>
+        <dYaw_Dgain>  0.01  </dYaw_Dgain>
+        <dYaw_Ilimit> 0.25 </dYaw_Ilimit>
+        <Yaw_Mgain>   75.0   </Yaw_Mgain>
+
+        <minRPM>             250             </minRPM>
+        <maxRPM>             3750            </maxRPM>
+        <VerticalVelLimit>   5.0   </VerticalVelLimit>
+        <HorizontalVelLimit> 6.0 </HorizontalVelLimit>
+        <RollLimit>          22.0         </RollLimit>
+      </plugin>
+
+    </model>
+    <!-- <model name='standing_person'>
+      <include>
+        <uri>model://person_standing</uri>
+        <pose>5 5 0.1 0 0 0</pose>
+      </include>
+    </model> -->
+
+    <!-- <model name='ROTORS2detect'>
+      <include>
+        <uri>model://vans_copter/simulationComponents/copterRemix2detect</uri>
+        <pose>5 -5 0.45 0 0 0</pose>
+      </include>
+    </model> -->
+    
+  </world>
+</sdf>

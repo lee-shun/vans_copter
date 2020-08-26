@@ -1,0 +1,427 @@
+[
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/c++  -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11    -O4 -g -o CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o -c /home/lee/catkin_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/c++  -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o -c /home/lee/catkin_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/src/image_interface.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet_ros/src/image_interface.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet_ros/src/image_interface.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activation_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/activation_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/activation_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/im2col.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/im2col.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/im2col.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/activations.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/activations.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/activations.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/image.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/image.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/image.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/avgpool_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/avgpool_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/avgpool_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/batchnorm_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/batchnorm_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/batchnorm_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/list.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/list.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/list.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/blas.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/blas.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/blas.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/local_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/local_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/local_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/box.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/box.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/box.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/lstm_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/lstm_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/lstm_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/col2im.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/col2im.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/col2im.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/matrix.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/matrix.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/matrix.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/connected_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/connected_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/connected_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/maxpool_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/maxpool_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/maxpool_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/convolutional_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/convolutional_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/convolutional_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/network.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/network.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/network.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cost_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/cost_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/cost_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/normalization_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/normalization_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/normalization_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crnn_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/crnn_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/crnn_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/option_list.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/option_list.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/option_list.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/crop_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/crop_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/crop_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/parser.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/parser.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/parser.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/cuda.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/cuda.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/cuda.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/region_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/region_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/region_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/data.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/data.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/data.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/reorg_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/reorg_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/reorg_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/deconvolutional_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/deconvolutional_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/deconvolutional_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/rnn_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/rnn_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/rnn_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/demo.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/demo.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/demo.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/route_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/route_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/route_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/detection_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/detection_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/detection_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/shortcut_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/shortcut_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/shortcut_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/dropout_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/dropout_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/dropout_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/softmax_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/softmax_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/softmax_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gemm.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/gemm.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/gemm.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/tree.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/tree.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/tree.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/gru_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/gru_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/gru_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/utils.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/utils.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/utils.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/upsample_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/upsample_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/upsample_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/logistic_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/logistic_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/logistic_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/l2norm_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/l2norm_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/l2norm_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/src/yolo_layer.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/src/yolo_layer.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/src/yolo_layer.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/art.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/art.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/art.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/lsd.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/lsd.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/lsd.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/attention.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/attention.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/attention.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/nightmare.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/nightmare.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/nightmare.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/captcha.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/captcha.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/captcha.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/regressor.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/regressor.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/regressor.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/cifar.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/cifar.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/cifar.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/rnn.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/rnn.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/rnn.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/classifier.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/classifier.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/classifier.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/segmenter.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/segmenter.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/segmenter.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/coco.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/coco.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/coco.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/super.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/super.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/super.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/darknet.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/darknet.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/darknet.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/tag.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/tag.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/tag.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/detector.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/detector.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/detector.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/yolo.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/yolo.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/yolo.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/darknet_ros/darknet_ros",
+  "command": "/usr/bin/cc -DDARKNET_FILE_PATH=\\\"/home/lee/catkin_ws/src/darknet_ros/darknet\\\" -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"darknet_ros\\\" -Ddarknet_ros_lib_EXPORTS -isystem /usr/include/opencv -I/home/lee/catkin_ws/src/darknet_ros/darknet/src -I/home/lee/catkin_ws/src/darknet_ros/darknet/include -I/home/lee/catkin_ws/src/darknet_ros/darknet_ros/include -I/home/lee/catkin_ws/devel/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g -o CMakeFiles/darknet_ros_lib.dir/__/darknet/examples/go.c.o   -c /home/lee/catkin_ws/src/darknet_ros/darknet/examples/go.c",
+  "file": "/home/lee/catkin_ws/src/darknet_ros/darknet/examples/go.c"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/BBoxInfo.dir/src/main/BBoxInfo.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/BBoxInfo.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/BBoxInfo.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DKeycmdProcess_EXPORTS -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/KeycmdProcess.dir/src/main/KeycmdProcess.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/KeycmdProcess.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/KeycmdProcess.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -DcamStablizer_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/camStablizer.dir/src/main/camStablizer.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/camStablizer.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/camStablizer.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DCom2_EXPORTS -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/Com2.dir/src/main/Com2.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/Com2.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/Com2.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -DXYZ_test_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/XYZ_test.dir/src/main/XYZ_test.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/XYZ_test.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/XYZ_test.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -DRPY_Cam_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/RPY_Cam.dir/src/main/RPY_Cam.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/RPY_Cam.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/RPY_Cam.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/MyCtrl.dir/src/main/MyCtrl.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/MyCtrl.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/MyCtrl.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -DcustomLIB_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/customLIB.dir/src/lib/customPID.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/lib/customPID.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/lib/customPID.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -DcustomLIB_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/customLIB.dir/src/lib/DualFilter.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/lib/DualFilter.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/lib/DualFilter.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/PosSaver.dir/src/main/PosSaver.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/PosSaver.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/PosSaver.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/planningPoint.dir/src/main/planningPoint.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/planningPoint.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/planningPoint.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/TargetCtrl.dir/src/main/TargetCtrl.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/TargetCtrl.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/TargetCtrl.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -Dmotor_plgn_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/motor_plgn.dir/src/main/motor_plgn.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/motor_plgn.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/motor_plgn.cpp"
+},
+{
+  "directory": "/home/lee/catkin_ws/build/vans_copter",
+  "command": "/usr/bin/c++  -DLIBBULLET_VERSION=2.87 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"vans_copter\\\" -DRPY_test_EXPORTS -I/home/lee/catkin_ws/devel/include -I/home/lee/catkin_ws/src/vans_copter/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/gazebo-9 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-6.0 -isystem /usr/include/ignition/math4 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -isystem /usr/include/ignition/transport4 -isystem /usr/include/ignition/msgs1 -isystem /usr/include/ignition/common1 -isystem /usr/include/ignition/fuel_tools1 -isystem /usr/include/uuid -isystem /usr/include/x86_64-linux-gnu  -std=c++11 -fPIC   -I/usr/include/uuid -I/usr/include/x86_64-linux-gnu -std=gnu++14 -o CMakeFiles/RPY_test.dir/src/main/RPY_test.cpp.o -c /home/lee/catkin_ws/src/vans_copter/src/main/RPY_test.cpp",
+  "file": "/home/lee/catkin_ws/src/vans_copter/src/main/RPY_test.cpp"
+}
+]
