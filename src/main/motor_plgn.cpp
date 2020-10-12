@@ -50,6 +50,10 @@ public:
     }
     this->rosNode.reset(new ros::NodeHandle(_model->GetName() + "_PLATFORM"));
     //_________________________________________________________________________________________________________________________________
+    /**
+      * 获得linkname以及joint_name
+      *
+      */
     std::string modelTypeName;
     if (_sdf->HasElement("modelTypeName")) {
       modelTypeName = _sdf->Get<std::string>("modelTypeName");
@@ -97,14 +101,19 @@ public:
     if (_sdf->HasElement("rand"))
       this->rand = _sdf->Get<double>("rand");
     //
+    //TODO:不熟悉的ros操作
     ros::SubscribeOptions so = ros::SubscribeOptions::create<vans_copter::rpm>(
         _model->GetName() + "/Com", 1,
         boost::bind(&MotorPlugin::FromComCallback, this, _1), ros::VoidPtr(),
         &this->rosQueue);
-    this->rosSub = this->rosNode->subscribe(so);
+
+    rosSub = rosNode->subscribe(so);
+
     this->rosQueueThread =
         std::thread(std::bind(&MotorPlugin::QueueThread, this));
+
     this->model = _model;
+
     for (int i = 0; i < 4; i++) {
       this->mag[i] = 0.0;
     }
